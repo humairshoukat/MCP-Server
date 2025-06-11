@@ -1,9 +1,13 @@
 [project]
 name = "mcp-project"
 version = "0.1.0"
-description = "Add your description here"
+description = "MCP Server Management API with FastAPI and Perlexity Sonar"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "mcp[cli]>=1.9.3",
+    "fastapi>=0.104.0",
+    "uvicorn>=0.23.2",
+    "httpx>=0.25.0",
+    "pydantic>=2.4.2",
 ]
