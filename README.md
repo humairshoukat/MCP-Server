@@ -22,7 +22,7 @@ This is a simple MCP server implementation using FastMCP. It provides tools like
 ## Running the Server
 Start the server with:
 ```bash
-python server.py
+python main.py
 ```
 
 The server will start on `http://localhost:8000` by default.
