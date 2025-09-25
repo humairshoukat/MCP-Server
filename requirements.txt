@@ -1,5 +1,5 @@
-fastapi
-uvicorn
-httpx
+fastmcp
+asyncio
 python-dotenv
-mcp
+requests
+ddgs
