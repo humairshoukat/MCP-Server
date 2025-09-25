@@ -95,8 +95,6 @@ if __name__ == "__main__":
                 transport="streamable-http",
                 host="0.0.0.0",
                 port=8000,
-                debug=True,  # Enable debug mode for detailed logs
-                reload=True  # Enable auto-reload on code changes
             )
         )
     except KeyboardInterrupt:
